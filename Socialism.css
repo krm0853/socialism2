@@ -1,0 +1,207 @@
+@font-face{
+    src: url(Fonts/Noto_Kufi_Arabic/NotoKufiArabic-VariableFont_wght.ttf);
+    font-family:nkufi ;
+}
+@font-face{
+    src: url(Fonts/Rakkas/Rakkas-Regular.ttf);
+    font-family: rakkas;
+}
+@font-face {
+    font-family: Qahiri;
+    src: url(Fonts/Qahiri/Qahiri-Regular.ttf);
+}
+@font-face {
+    font-family: rkuffi;
+    src: url(Fonts/Reem_Kufi/ReemKufi-VariableFont_wght.ttf);
+}
+main{margin: 10px;}
+body{ border: double ;margin: 0px;
+ 
+ direction: rtl;
+    background-color: #F5E9D3;
+  
+    background-image: url(wp2549216-wallpaper-socialist.png);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+header{direction: rtl;
+     color: white; font-size: 2em;
+border: dotted;
+border-width: 3px ;
+border-bottom-width: 10px;
+border-bottom-color:gold ;
+    font-family: Reem Kufi;
+    margin: 0%; 
+    
+}
+.navbar ul{list-style-type: none;
+background-color: #F5D37A;
+padding: 0px;
+overflow: hidden;
+margin: 0;
+height: 75px;
+font-family: Reem Kufi;
+font-size: 1.7em;
+}
+#wha {color: brown; background-color: #F5E9D3; display:inline-block ;padding: 5px ;margin: 0px;}
+.navbar a{
+    padding: 15px;
+    text-align: center;
+    display: block;
+    margin: 0px;
+    text-size-adjust: 2em;
+    
+}
+.navbar a:hover {
+    background-color:hsl(43, 67%, 60%);
+}
+.navbar li{float: right;}
+#ta{font-family: rkuffi;
+color: firebrick ;
+background-color: #F5E9D3;
+align-items: center;
+
+}
+td{
+    padding: 15px;
+}
+pre{ color:#F5D37A;
+     border-top:indigo ;
+    font-family: nkufi ;
+    font-size: 1.5em;
+text-align: center;
+}
+
+dl{
+    color: gold;
+    background-color: firebrick;
+    font-family: rakkas;
+    border:double  ;
+    border-color: gold  ;
+    
+}
+#logo{
+    color: gold;
+}
+
+#fc{ text-shadow: 4px  3px 4px  ; background-color: indigo; color: white;
+font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#formf{ color: #ffffff; margin: auto;
+    font-size: large; font-family: rakaas  ;
+   ;
+}
+footer{
+height: 100px;
+    background-color: #2E2E2E; color: #CFCFCF;
+}
+#box{align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 500px ;
+    
+}
+#box  p{direction:  center ; font-family:nkufi ;
+background-color: antiquewhite; text-align: center;
+}
+pre:hover{color: rgb(100, 15, 15); background-color: #F5D37A;}
+body::selection{ 
+   color: rgb(100, 15, 15); background-color: #F5D37A
+}
+#des dt::before{
+    content: ⛏️;
+}
+#des a::before{color: bisque;}
+input[type="email"] {
+
+    width: 300px;  }
+
+input[type="email"]::placeholder {direction: rtl ; text-align: left;   ;
+
+      }
+      #formf::placeholder{ color:rgb(180, 100, 100)}
+a{color: #220452; text-decoration: none; }
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.icons a{margin: 5px;}
+
+#hh:hover{ 
+    background-color:rgb(100, 15, 15)
+}
+#bb:hover{color: rgb(100, 15, 15 ) ;}
+.fa-brands.fa-twitter.fa-2xl{color: hsl(49, 83%, 77%);}
+.fa-brands.fa-twitter.fa-2xl:hover{color: hsl(49, 83%, 62%);}
+
+.fa-sharp.fa-solid.fa-hand-fist.fa-2xl{color: hsl(49, 83%, 77%);;}
+.fa-sharp.fa-solid.fa-hand-fist.fa-2xl:hover{color: hsl(49, 83%, 62%);;}
+
+.fa-brands.fa-wikipedia-w.fa-2xl{color: hsl(49, 83%, 77%);;}
+.fa-brands.fa-wikipedia-w.fa-2xl:hover{color: hsl(49, 83%, 62%);;}
+
+.fa-brands.fa-youtube.fa-2xl{color: hsl(49, 83%, 77%);;}
+.fa-brands.fa-youtube.fa-2xl:hover{color: hsl(49, 83%, 62%)}
+textarea{border-radius: 10px ; border:white #F5D37A ;}
+.xx{ text-align: left;}
+#sticky-box{ font-size: 2em;
+    border: solid darkred;
+    background-color: gold;
+    color: rgb(100, 15, 15 ) ;
+    padding: 15px;
+    width: 200px;
+   margin-right: auto;
+    border-radius: 15px;
+ 
+    position: sticky;
+    
+    top: 0px;
+    left: 0px;
+    animation-name:grow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+#sticky-box:hover{box-sizing: border-box;
+  
+    background-color:   rgb(100, 15, 15 ) ;
+    animation-name:grow;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+#sticky-box a:hover{ color: gold;}
+@keyframes grow{
+    50%{transform:scale(1.1,1.1) ;}
+}
+.heads{ 
+    padding: 5px;
+    color: #CFCFCF;
+   background-color: #2E2E2E;
+   font-family: rakkas;
+   border: #CFCFCF  solid;
+   border-radius: 30px;
+}
+#ov a{ align-items: center;
+    display: inline-block;
+    background-color: #00e1ff;
+    color: #ffffff;
+    padding: 20px;
+    align-items: center;
+     width: 130px;     /* أي عرض تريد */
+height: 90px;
+ margin-right: auto;
+
+  size: 4em;
+font-size: 2em;
+    left: 0px;
+    text-align: center;
+    border:white  solid;
+    border-radius: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 2px black;
+}
+#ov{align-items: center;
+align-content: center;
+text-align: center;}
