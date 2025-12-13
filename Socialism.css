@@ -96,19 +96,16 @@ footer{
 height: 100px;
     background-color: #2E2E2E; color: #CFCFCF;
 }
-#box{align-items: center;
-    align-content: center;
-    text-align: center;
-    padding: 500px ;
-    
-}
 #box  p{direction:  center ; font-family:nkufi ;
 background-color: antiquewhite; text-align: center;
+    
 }
 #box{ min-height: 100vh;        flex-direction: column;
+padding: 50px;
 
-    display: flex;
     justify-content: center;    
+    align-items: center;      
+    direction:  center  ; text-align: center ; align-items: center;}
     align-items: center;      
     direction:  center  ; text-align: center ; align-items: center;}
 pre:hover{color: rgb(100, 15, 15); background-color: #F5D37A;}
@@ -212,3 +209,4 @@ font-size: 2em;
 align-content: center;
 
 text-align: center;}
+
