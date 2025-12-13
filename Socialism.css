@@ -105,6 +105,12 @@ height: 100px;
 #box  p{direction:  center ; font-family:nkufi ;
 background-color: antiquewhite; text-align: center;
 }
+#box{ min-height: 100vh;        flex-direction: column;
+
+    display: flex;
+    justify-content: center;    
+    align-items: center;      
+    direction:  center  ; text-align: center ; align-items: center;}
 pre:hover{color: rgb(100, 15, 15); background-color: #F5D37A;}
 body::selection{ 
    color: rgb(100, 15, 15); background-color: #F5D37A
@@ -204,4 +210,5 @@ font-size: 2em;
 }
 #ov{align-items: center;
 align-content: center;
+
 text-align: center;}
